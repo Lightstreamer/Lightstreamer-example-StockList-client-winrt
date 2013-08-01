@@ -41,8 +41,8 @@ If you want to skip the build process of this demo please note that you can inst
 Otherwise, to directly import the project as is you can use Visual Studio Express for Windows 8. You can download it from the [Microsoft website](http://www.microsoft.com/visualstudio/eng/downloads#d-express-windows-8) (requires Windows 8).<br>
 You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the App.xaml.cs file.<br>
 
-You should complete this project with the Lightstreamer Silverlight Client library, to be used for the build process.<br>
-Please, download the latest Lightstreamer distribution and copy the DotNetClient_WinRT.dll and DotNetClient_WinRT.pdb files from the Lightstreamer Silverlight Client SDK (that is located under the /DOCS-SDKs/sdk_client_winrt/lib folder) into the "lib" folder of this project.
+You should complete this project with the Lightstreamer WinRT Client library, to be used for the build process.<br>
+Please, download the latest Lightstreamer distribution and copy the DotNetClient_WinRT.dll and DotNetClient_WinRT.pdb files from the Lightstreamer WinRT Client SDK (that is located under the /DOCS-SDKs/sdk_client_winrt/lib folder) into the "lib" folder of this project.
 
 You're now ready to import the project into Visual Studio, click on File->New Project->Blank App and import all the files located in the demo folder.<br>
 From Visual Studio, right-click on the WinRTStockListDemo project in the Solution Explorer menu and select Debug->Start New Instance. The WinRT app will be installed and launched.
