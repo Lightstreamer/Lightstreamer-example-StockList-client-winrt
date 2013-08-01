@@ -1,6 +1,6 @@
 # Lightstreamer StockList Demo Client for Microsoft WinRT #
 
-This project contains a demo project showing integration between Lightstreamer WinRT Client and the WinRT platform.
+This project contains a demo client showing integration between Lightstreamer WinRT Client and the WinRT platform.
 
 ## WinRT Stock-List Demo ##
 
