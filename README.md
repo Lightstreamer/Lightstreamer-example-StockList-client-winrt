@@ -49,7 +49,7 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 
 # See Also #
 
-## Lightstreamer Adapters needed by these demo clients ##
+## Lightstreamer Adapters needed by this demo client ##
 
 * [Lightstreamer StockList Demo Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer Reusable Metadata Adapter in Java](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
@@ -67,3 +67,4 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer WinRT Client Library version 1.0 or newer.
+- For Lightstreamer Allegro+, Presto, Vivace.
