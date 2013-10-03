@@ -7,7 +7,7 @@ This project contains a demo client showing integration between Lightstreamer Wi
 <table>
   <tr>
     <td style="text-align: left">
-      &nbsp;<a href="http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682" target="_blank"><img src="http://www.lightstreamer.com/img/demo/screen_wp.png"></a>&nbsp;
+      &nbsp;<a href="http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682" target="_blank"><img src="screen_wp.png"></a>&nbsp;
       
     </td>
     <td>
@@ -67,4 +67,4 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 # Lightstreamer Compatibility Notes #
 
 - Compatible with Lightstreamer WinRT Client Library version 1.0 or newer.
-- For Lightstreamer Allegro+, Presto, Vivace.
+- For Lightstreamer Allegro (+ WinRT Client API support), Presto, Vivace.
