@@ -1,5 +1,7 @@
 # Lightstreamer - Basic Stock-List Demo - WinRT Client #
 
+<!-- START DESCRIPTION lightstreamer-example-stocklist-client-winrt -->
+
 This project contains a demo client showing integration between Lightstreamer WinRT Client and the WinRT platform.
 
 <table>
@@ -32,6 +34,8 @@ Check out the sources for further explanations.<br>
 <i>NOTE: not all the functionalities of the Lightstreamer WinRT Client Library are exposed by the classes listed above. You can easily expand those functionalities using the WinRT Client API as a reference.<br>  
 If in trouble check out the [Lightstreamer forum](http://forums.lightstreamer.com/).</i>
 
+<!-- END DESCRIPTION lightstreamer-example-stocklist-client-winrt -->
+
 # Build #
 
 If you want to skip the build process of this demo please note that you can install and run the app from the Windows Store, either click the image or link above from within Windows 8, or go to the store and search for "Lightstreamer".<br>
@@ -49,8 +53,11 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 
 ## Lightstreamer Adapters needed by this demo client ##
 
+<!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
 * [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+
+<!-- END RELATED_ENTRIES -->
 
 ## Similar demo clients that may interest you ##
 
