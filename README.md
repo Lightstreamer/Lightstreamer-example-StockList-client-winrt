@@ -2,27 +2,17 @@
 
 <!-- START DESCRIPTION lightstreamer-example-stocklist-client-winrt -->
 
-This project contains a demo client showing integration between Lightstreamer WinRT Client and the WinRT platform.
+This project contains a demo client showing integration between [Lightstreamer WinRT Client](http://www.lightstreamer.com/docs/client_winrt_api/frames.html) and the WinRT platform.
 
-<table>
-  <tr>
-    <td style="text-align: left">
-      &nbsp;<a href="http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682" target="_blank"><img src="screen_wp.png"></a>&nbsp;
-      
-    </td>
-    <td>
-      &nbsp;To install the app from the Windows Store<br>
-      &nbsp;<a href="http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682" target="_blank">http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682</a>
-    </td>
-  </tr>
-</table>
+[![screenshot](screen_wp_large.png)](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682)<br>
+To install the app from the Windows Store [click here](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682).<br>
 
 This is a WinRT (Windows Runtime for Windows 8) version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript).<br>
 This app uses the <b>WinRT Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.
 
 In particular, this readme file details the steps required in order to execute the demo on a Windows 8 installation using Visual Studio Express for Windows 8.
 
-## Dig the code ##
+## Dig the Code ##
 
 * <b>App.xaml.cs</b> is the main application file, it contains application events handling code (application launching, closed, activated, etc), Lightstreamer Client streaming controls (start, stop) and part of the auto-reconnection logic required when connection quality is weak.
 * <b>MainPage.xaml.cs</b> is the place where all the application widgets are handled. The application in fact, consists in a simple table containing real-time (simulated) stock quotes, whose cells are kept up-to-date by implementing the ILightstreamerListener interface.
@@ -51,7 +41,7 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 
 # See Also #
 
-## Lightstreamer Adapters needed by this demo client ##
+## Lightstreamer Adapters Needed by This Demo Client ##
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -59,7 +49,7 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 
 <!-- END RELATED_ENTRIES -->
 
-## Similar demo clients that may interest you ##
+## Related Projects ##
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
