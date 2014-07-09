@@ -7,7 +7,6 @@ This project contains a demo client showing integration between [Lightstreamer W
 ## Live Demo
 
 [![screenshot](screen_wp_large.png)](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682)<br>
-
 ###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682)<br>
 
 ## Details
@@ -36,6 +35,8 @@ If in trouble check out the [Lightstreamer forum](http://forums.lightstreamer.co
 If you want to skip the build process of this demo please note that you can install and run the app from the Windows Store, either click the image or link above from within Windows 8, or go to the store and search for "Lightstreamer".<br>
 
 ## Build 
+
+To build your own version of the demo, instead of using the one provided in the store as from the Install section above, follow the steps below.
 
 To directly import the project as is you can use Visual Studio Express for Windows 8. You can download it from the [Microsoft website](http://www.microsoft.com/visualstudio/eng/downloads#d-express-windows-8) (requires Windows 8).<br>
 You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the App.xaml.cs file.<br>
