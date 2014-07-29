@@ -18,10 +18,10 @@ In particular, this readme file details the steps required in order to execute t
 
 ### Dig the Code
 
-* <b>App.xaml.cs</b> is the main application file, it contains application events handling code (application launching, closed, activated, etc), Lightstreamer Client streaming controls (start, stop) and part of the auto-reconnection logic required when connection quality is weak.
-* <b>MainPage.xaml.cs</b> is the place where all the application widgets are handled. The application in fact, consists in a simple table containing real-time (simulated) stock quotes, whose cells are kept up-to-date by implementing the ILightstreamerListener interface.
-  Several lines in this file are dedicated to the animation code used for highlighting cells in case of real-time updates, you can ignore them altogether if you feel more comfortable.
-* <b>LightstreamerClient.cs</b> is a simple wrapper for LSClient public class (see Lightstreamer WinRT Client API) and uses two listeners: <b>StocklistConnectionListener.cs</b> and <b>StocklistHandyTableListener.cs</b>, respectively implementing a Connection Status listener and a Real-Time Data Updates listener.
+* `App.xaml.cs` is the main application file, it contains application events handling code (application launching, closed, activated, etc), Lightstreamer Client streaming controls (start, stop) and part of the auto-reconnection logic required when connection quality is weak.
+* `MainPage.xaml.cs` is the place where all the application widgets are handled. The application in fact, consists in a simple table containing real-time (simulated) stock quotes, whose cells are kept up-to-date by implementing the ILightstreamerListener interface.
+Several lines in this file are dedicated to the animation code used for highlighting cells in case of real-time updates, you can ignore them altogether if you feel more comfortable.
+* `LightstreamerClient.cs` is a simple wrapper for LSClient public class (see Lightstreamer WinRT Client API) and uses two listeners: `StocklistConnectionListener.cs` and `StocklistHandyTableListener.cs`, respectively implementing a Connection Status listener and a Real-Time Data Updates listener.
   
 Check out the sources for further explanations.<br>
 
@@ -36,13 +36,13 @@ If you want to skip the build process of this demo please note that you can inst
 
 ## Build 
 
-To build your own version of the demo, instead of using the one provided in the store as from the Install section above, follow the steps below.
+To build your own version of the demo, instead of using the one provided in the store as from the [Install section](https://github.com/Weswit/Lightstreamer-example-StockList-client-winrt#install) above, follow the steps below.
 
 To directly import the project as is you can use Visual Studio Express for Windows 8. You can download it from the [Microsoft website](http://www.microsoft.com/visualstudio/eng/downloads#d-express-windows-8) (requires Windows 8).<br>
-You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the App.xaml.cs file.<br>
+You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the `App.xaml.cs` file.<br>
 
 You should complete this project with the Lightstreamer WinRT Client library, to be used for the build process.<br>
-Please, download the latest Lightstreamer distribution and copy the DotNetClient_WinRT.dll and DotNetClient_WinRT.pdb files from the Lightstreamer WinRT Client SDK (that is located under the /DOCS-SDKs/sdk_client_winrt/lib folder) into the "lib" folder of this project.
+Please, download the latest Lightstreamer distribution and copy the `DotNetClient_WinRT.dll` and `DotNetClient_WinRT.pdb` files from the Lightstreamer WinRT Client SDK (that is located under the `/DOCS-SDKs/sdk_client_winrt/lib` folder) into the `lib` folder of this project.
 
 You're now ready to import the project into Visual Studio, click on File->New Project->Blank App and import all the files located in the demo folder.<br>
 From Visual Studio, right-click on the WinRTStockListDemo project in the Solution Explorer menu and select Debug->Start New Instance. The WinRT app will be installed and launched.
@@ -69,5 +69,5 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 
 ## Lightstreamer Compatibility Notes 
 
-- Compatible with Lightstreamer WinRT Client Library version 1.0 or newer.
-- For Lightstreamer Allegro (+ WinRT Client API support), Presto, Vivace.
+* Compatible with Lightstreamer WinRT Client Library version 1.0 or newer.
+* For Lightstreamer Allegro (+ WinRT Client API support), Presto, Vivace.
