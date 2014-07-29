@@ -36,20 +36,18 @@ If you want to skip the build process of this demo please note that you can inst
 
 ## Build 
 
-To build your own version of the demo, instead of using the one provided in the store as from the [Install section](https://github.com/Weswit/Lightstreamer-example-StockList-client-winrt#install) above, follow the steps below.
+To build your own version of the demo, instead of using the one provided in the store as from the [Install](https://github.com/Weswit/Lightstreamer-example-StockList-client-winrt#install) section above, follow these steps.
 
-To directly import the project as is you can use Visual Studio Express for Windows 8. You can download it from the [Microsoft website](http://www.microsoft.com/visualstudio/eng/downloads#d-express-windows-8) (requires Windows 8).<br>
-You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the `App.xaml.cs` file.<br>
-
-You should complete this project with the Lightstreamer WinRT Client library, to be used for the build process.<br>
-Please, download the latest Lightstreamer distribution and copy the `DotNetClient_WinRT.dll` and `DotNetClient_WinRT.pdb` files from the Lightstreamer WinRT Client SDK (that is located under the `/DOCS-SDKs/sdk_client_winrt/lib` folder) into the `lib` folder of this project.
-
-You're now ready to import the project into Visual Studio, click on File->New Project->Blank App and import all the files located in the demo folder.<br>
-From Visual Studio, right-click on the WinRTStockListDemo project in the Solution Explorer menu and select Debug->Start New Instance. The WinRT app will be installed and launched.
+* To directly import the project as is you can use Visual Studio Express for Windows 8. You can download it from the [Microsoft website](http://www.microsoft.com/visualstudio/eng/downloads#d-express-windows-8) (requires Windows 8).<br>
+* You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the `App.xaml.cs` file.<br>
+  * In the former case, note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+* You should complete this project with the Lightstreamer WinRT Client library, to be used for the build process. Please, download the latest Lightstreamer distribution and copy the `DotNetClient_WinRT.dll` and `DotNetClient_WinRT.pdb` files from the *Lightstreamer WinRT Client SDK* (that is located under the `/DOCS-SDKs/sdk_client_winrt/lib` folder) into the `lib` folder of this project.
+* You're now ready to import the project into Visual Studio, click on <b>File->New Project->Blank App</b> and import all the files located in the demo folder.
+* From Visual Studio, right-click on the *WinRTStockListDemo* project in the Solution Explorer menu and select <b>Debug->Start New Instance</b>. The WinRT app will be installed and launched.
 
 ## See Also
 
-## Lightstreamer Adapters Needed by This Demo Client
+### Lightstreamer Adapters Needed by This Demo Client
 
 <!-- START RELATED_ENTRIES -->
 * [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
@@ -57,7 +55,7 @@ From Visual Studio, right-click on the WinRTStockListDemo project in the Solutio
 
 <!-- END RELATED_ENTRIES -->
 
-## Related Projects
+### Related Projects
 
 * [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
 * [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
