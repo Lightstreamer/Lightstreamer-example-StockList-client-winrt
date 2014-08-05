@@ -32,7 +32,7 @@ If in trouble check out the [Lightstreamer forum](http://forums.lightstreamer.co
 
 ## Install
 
-If you want to skip the build process of this demo please note that you can install and run the app from the Windows Store, either click the image or link above from within Windows 8, or go to the store and search for "Lightstreamer".<br>
+If you want to skip the build process of this demo please note that you can install and run the app from the Windows Store, either click the image or link above within Windows 8, or go to the store and search for "Lightstreamer".<br>
 
 ## Build 
 
