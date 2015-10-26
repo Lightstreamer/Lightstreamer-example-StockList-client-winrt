@@ -11,7 +11,7 @@ This project contains a demo client showing integration between [Lightstreamer W
 
 ## Details
 
-This is a WinRT (Windows Runtime for Windows 8) version of the [Stock-List Demos](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript).<br>
+This is a WinRT (Windows Runtime for Windows 8) version of the [Stock-List Demos](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript).<br>
 This app uses the <b>WinRT Client API for Lightstreamer</b> to handle the communications with Lightstreamer Server. A simple user interface is implemented to display the real-time data received from Lightstreamer Server.
 
 In particular, this readme file details the steps required to execute the demo on a Windows 8 installation, using Visual Studio Express for Windows 8.
@@ -36,11 +36,11 @@ If you want to skip the build process of this demo, please note that you can ins
 
 ## Build 
 
-To build your own version of the demo, instead of using the one provided in the store as from the [Install](https://github.com/Weswit/Lightstreamer-example-StockList-client-winrt#install) section above, follow these steps:
+To build your own version of the demo, instead of using the one provided in the store as from the [Install](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-winrt#install) section above, follow these steps:
 
 * To directly import the project as-is, you can use Visual Studio Express for Windows 8. You can download it from the [Microsoft website](http://www.microsoft.com/visualstudio/eng/downloads#d-express-windows-8) (requires Windows 8).<br>
 * You may run the demo against your local server or using our online server at http://push.lightstreamer.com:80. The server to which the demo will connect to is configured in the `App.xaml.cs` file.<br>
-  * In the former case, note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
+  * In the former case, note that, as prerequisite, the [Lightstreamer - Stock- List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java) has to be deployed on your local Lightstreamer Server instance. Please check out that project and follow the installation instructions provided with it.
 * You should complete this project with the Lightstreamer WinRT Client library, to be used for the build process. Please download the latest Lightstreamer distribution and copy the `DotNetClient_WinRT.dll` and `DotNetClient_WinRT.pdb` files from the *Lightstreamer WinRT Client SDK* (located under the `/DOCS-SDKs/sdk_client_winrt/lib` folder) into the `lib` folder of this project.
 * You're now ready to import the project into Visual Studio, click on <b>File->New Project->Blank App</b> and import all the files located in the demo folder.
 * From Visual Studio, right-click on the *WinRTStockListDemo* project in the Solution Explorer menu and select <b>Debug->Start New Instance</b>. The WinRT app will be installed and launched.
@@ -50,20 +50,20 @@ To build your own version of the demo, instead of using the one provided in the 
 ### Lightstreamer Adapters Needed by This Demo Client
 
 <!-- START RELATED_ENTRIES -->
-* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Weswit/Lightstreamer-example-Stocklist-adapter-java)
-* [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Weswit/Lightstreamer-example-ReusableMetadata-adapter-java)
+* [Lightstreamer - Stock-List Demo - Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-adapter-java)
+* [Lightstreamer - Reusable Metadata Adapters- Java Adapter](https://github.com/Lightstreamer/Lightstreamer-example-ReusableMetadata-adapter-java)
 
 <!-- END RELATED_ENTRIES -->
 
 ### Related Projects
 
-* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Weswit/Lightstreamer-example-Stocklist-client-javascript)
-* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-jquery)
-* [Lightstreamer - Stock-List Demo - Dojo Toolkit Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dojo)
-* [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-java)
-* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-dotnet)
-* [Lightstreamer - Stock-List Demos - Flex Clients](https://github.com/Weswit/Lightstreamer-example-StockList-client-flex)
-* [Lightstreamer - Basic Stock-List Demo - Silverlight Client](https://github.com/Weswit/Lightstreamer-example-StockList-client-silverlight)
+* [Lightstreamer - Stock-List Demos - HTML Clients](https://github.com/Lightstreamer/Lightstreamer-example-Stocklist-client-javascript)
+* [Lightstreamer - Basic Stock-List Demo - jQuery (jqGrid) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-jquery)
+* [Lightstreamer - Stock-List Demo - Dojo Toolkit Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dojo)
+* [Lightstreamer - Basic Stock-List Demo - Java SE (Swing) Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-java)
+* [Lightstreamer - Basic Stock-List Demo - .NET Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-dotnet)
+* [Lightstreamer - Stock-List Demos - Flex Clients](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-flex)
+* [Lightstreamer - Basic Stock-List Demo - Silverlight Client](https://github.com/Lightstreamer/Lightstreamer-example-StockList-client-silverlight)
 
 ## Lightstreamer Compatibility Notes 
 
