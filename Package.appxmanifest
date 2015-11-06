@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="WeswitSrl.LightstreamerStock-ListDemo" Publisher="CN=776B7005-FEC1-43AF-9B52-D18473B43E77" Version="1.0.0.1" />
+  <Identity Name="WeswitSrl.LightstreamerStock-ListDemo" Publisher="CN=776B7005-FEC1-43AF-9B52-D18473B43E77" Version="1.0.0.6" />
   <Properties>
     <DisplayName>Lightstreamer Stock-List Demo</DisplayName>
     <PublisherDisplayName>Weswit Srl</PublisherDisplayName>
