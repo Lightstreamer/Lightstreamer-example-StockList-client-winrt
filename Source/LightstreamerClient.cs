@@ -61,12 +61,18 @@ namespace WinRTStockListDemo
 
         public void Start(string pushServerUrl, int phase, ILightstreamerListener listener)
         {
+            IDictionary<String, String> myHeads = new Dictionary<String, String>();
+
             this._started = true;
             StocklistConnectionListener ls = new StocklistConnectionListener(listener, phase);
 
             ConnectionInfo connInfo = new ConnectionInfo();
             connInfo.PushServerUrl = pushServerUrl;
             connInfo.Adapter = "DEMO";
+            myHeads.Add("header-1", "1");
+
+            connInfo.HttpExtraHeaders = myHeads;
+
             client.OpenConnection(connInfo, ls);
 
         }

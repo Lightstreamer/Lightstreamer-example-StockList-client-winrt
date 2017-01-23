@@ -1,27 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
-  <Identity Name="WeswitSrl.LightstreamerStock-ListDemo" Publisher="CN=776B7005-FEC1-43AF-9B52-D18473B43E77" Version="1.0.0.6" />
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="WeswitSrl.LightstreamerStock-ListDemo" Publisher="CN=776B7005-FEC1-43AF-9B52-D18473B43E77" Version="1.1.0.8" />
   <Properties>
     <DisplayName>Lightstreamer Stock-List Demo</DisplayName>
     <PublisherDisplayName>Weswit Srl</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Prerequisites>
-    <OSMinVersion>6.2.1</OSMinVersion>
-    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
   </Prerequisites>
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
   <Applications>
     <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="WinRTStockListDemo.App">
-      <VisualElements DisplayName="Lightstreamer Stock-List Demo" Logo="Assets\Logo.png" SmallLogo="Assets\SmallLogo.png" Description="This is a WinRT version of the classic Lightstreamer Stock-List Demo. This app uses the WinRT Client API for Lightstreamer to handle the communications with Lightstreamer Server." ForegroundText="light" BackgroundColor="#0c2a02" ToastCapable="false">
-        <DefaultTile ShowName="allLogos" WideLogo="Assets\WideLogo.png" ShortName="Stock-List Demo" />
-        <SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="#0c2a02" />
-        <InitialRotationPreference>
-          <Rotation Preference="landscape" />
-        </InitialRotationPreference>
-      </VisualElements>
+      <m2:VisualElements DisplayName="Lightstreamer Stock-List Demo" Description="This is a WinRT version of the classic Lightstreamer Stock-List Demo. This app uses the WinRT Client API for Lightstreamer to handle the communications with Lightstreamer Server." BackgroundColor="#0c2a02" ToastCapable="false" ForegroundText="light" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png">
+        <m2:DefaultTile ShortName="Stock-List Demo" Wide310x150Logo="Assets\WideLogo.png">
+          <m2:ShowNameOnTiles>
+            <m2:ShowOn Tile="square150x150Logo" />
+            <m2:ShowOn Tile="wide310x150Logo" />
+          </m2:ShowNameOnTiles>
+        </m2:DefaultTile>
+        <m2:InitialRotationPreference>
+          <m2:Rotation Preference="landscape" />
+        </m2:InitialRotationPreference>
+        <m2:SplashScreen BackgroundColor="#0c2a02" Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
     </Application>
   </Applications>
   <Capabilities>

@@ -42,6 +42,7 @@ namespace WinRTStockListDemo
     {
 
         private const string pushServerHost = "http://push.lightstreamer.com"; //internal note: switching to SSL requires changing the cryptography declaration on the windows store
+        //private const string pushServerHost = "http://localhost:8080";
         public static string[] items = {"item1", "item2", "item3", "item4", "item5",
         "item6", "item7", "item8", "item9", "item10", "item11", "item12", "item13",
         "item14", "item15"};
@@ -214,6 +215,10 @@ namespace WinRTStockListDemo
             }
 
             catch (PushConnException pce)
+            {
+                PauseAndRetry(ph, pce);
+            }
+            catch (PushUserException pce)
             {
                 PauseAndRetry(ph, pce);
             }
