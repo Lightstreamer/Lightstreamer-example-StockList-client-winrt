@@ -7,7 +7,7 @@ This project contains a demo client showing integration between [Lightstreamer .
 ## Live Demo
 
 [![screenshot](screen_wp_large.png)](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682)<br>
-###[![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682)<br>
+### [![](http://demos.lightstreamer.com/site/img/play.png) View live demo](http://apps.microsoft.com/webpdp/en-US/app/lightstreamer-stock-list-demo/8467d915-5499-44b7-8d20-93baaf916682)<br>
 
 ## Details
 
